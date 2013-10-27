@@ -75,7 +75,7 @@ goog.inherits(piine.graph.UserReactionGraph, goog.ui.Component);
 var PI2 = Math.PI * 2;
 
 
-piine.graph.UserReactionGraph.CLOCKWISE_WIND = 0.0003;
+piine.graph.UserReactionGraph.CLOCKWISE_WIND = 0;
 
 
 piine.graph.UserReactionGraph.REFRESH_RATE = 33;

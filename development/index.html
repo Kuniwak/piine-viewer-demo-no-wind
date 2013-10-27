@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Piine View</title>
+  <link href="http://fonts.googleapis.com/css?family=Sansita+One|Oxygen" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="all">
+  <link href="css/style.css" rel="stylesheet" media="all">
+</head>
+<body>
+  <div id="piine-view" class="piine-view">
+    <canvas id="piine-user-reaction-graph" class="piine-user-reaction-graph" width="800" height="600"></canvas>
+    <div class="piine-container">
+      <p class="piine-logo">piine!</p>
+      <p class="piine-info">produced by <a title="contact to me on twitter" href="https://twitter.com/orga_chem"><img class="piine-profile-icon" src="img/orgachem.png" alt="orga_chem"></a></p>
+    </div>
+  </div>
+  <div class="btn-box">
+    <a id="add-user" class="btn btn-default btn-sm" href="#"><i class="glyphicon glyphicon-plus"></i> Add user</a>
+    <a id="remove-user" class="btn btn-default btn-sm" href="#"><i class="glyphicon glyphicon-minus"></i> Remove user</a>
+    <a id="react-user" class="btn btn-default btn-sm" href="#"><i class="glyphicon glyphicon-thumbs-up"></i> piine!</a>
+    <a id="ovation" class="btn btn-default btn-sm" href="#"><i class="glyphicon glyphicon-thumbs-up"></i><i class="glyphicon glyphicon-thumbs-up"></i><i class="glyphicon glyphicon-thumbs-up"></i> ovation</a>
+  </div>
+  <script src="../closure/library/closure/goog/base.js"></script><!--@base_js@-->
+  <script src="js_dev/deps.js"></script><!--@deps_js@-->
+  <script type="text/javascript"> goog.require('main'); </script><!--@require_main@-->
+</body>
+</html>
